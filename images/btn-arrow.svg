@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Arrow-for-BTN" fill-opacity="1">
+    <path d="M1736 2706L1736 2706L1736 2722L1720 2722L1720 2706L1736 2706Z" id="Arrow-for-BTN" fill="none" stroke="none" />
+    <path d="M8 0L6.59 1.41L12.17 7L0 7L0 9L12.17 9L6.59 14.59L8 16L16 8L8 0L8 0Z" id="Vector" fill="#CE0000" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

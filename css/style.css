@@ -1,28 +1,47 @@
-body, body * {
+body,
+body * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-h1,h2,h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Rubik';
 }
-p,h4,h5,h6 {
+
+p,
+h4,
+h5,
+h6,
+span {
     font-family: 'Roboto';
 }
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* header start */
 .navigation-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
+
 .navbar {
     display: flex;
     gap: 20px;
 }
+
 .header-links {
     font-family: 'Roboto';
     font-size: 16px;
@@ -30,19 +49,160 @@ p,h4,h5,h6 {
     line-height: 18px;
     text-decoration: none;
     color: var(--color-darkgray);
+    transition: 0.4s ease;
 }
+
+.header-links:hover {
+    color: #ce0000;
+    filter: brightness(0) saturate(100%) invert(8%) sepia(76%) saturate(7464%) hue-rotate(11deg) brightness(110%) contrast(118%);
+}
+
 .header-user-links {
     display: flex;
     align-items: center;
     gap: 5px;
 }
+
 .icons {
     position: relative;
     top: 2px;
     margin: 0px 2px;
+    transition: 0.4s ease;
 }
-.login-btn {
-    background-color: var(--color-white);
+
+.default-btn {
+    background-color: white;
     border: 1px solid #f5f5f5;
-    color: var(--color-darkgray);
+    border-radius: 4px;
+    height: 45px;
+    min-width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+
 }
+
+.login-btn a {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Roboto';
+
+}
+
+.login-btn:hover {
+    border: 1px solid rgb(116, 116, 116);
+}
+
+.signup-btn {
+    border: none;
+    background-color: #ce0000;
+    color: white;
+    transition: 0.3s ease;
+    text-decoration: none;
+    font-family: 'Roboto';
+
+}
+
+.signup-btn:hover {
+    background-color: #333;
+}
+
+.user-icon {
+    position: relative;
+    left: 8px;
+    top: -1px;
+}
+
+/* header-end */
+
+/* network-section start */
+.advance-network-section {
+    background-image: url(/images/background-image.webp);
+}
+
+.advance-network-parent {
+    display: flex;
+    align-items: center;
+
+}
+
+.advance-network-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 60px;
+}
+
+.common-heading {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 110%;
+    color: #f5f5f5;
+    letter-spacing: 0.4px;
+}
+
+.network-small-heading {
+    font-size: 32px;
+}
+
+.network-image img {
+    width: 100%;
+}
+
+.common-btn {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.glowing-btn {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.glowing-btn svg {
+    position: relative;
+    left: 7px;
+}
+
+.glowing-btn a {
+    color: #333;
+    height: 45px;
+    width: 180px;
+    transition: all 0.3s ease;
+
+}
+
+.glowing-btn a:hover {
+    box-shadow: 0 20px 40px 10px rgba(255, 69, 0, 0.8);
+    color: #ce0000;
+
+
+}
+
+/* network-section end */
+
+/* .network-ad-section start */
+.network-ad-parent {
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.network-ad-logos {
+    display: flex;
+    align-items: center;
+}
+
+.network-ad-logos span {
+    color: #989898;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 1rem;
+
+}
+
+/* .network-ad-section end */
