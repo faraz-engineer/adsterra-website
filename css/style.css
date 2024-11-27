@@ -206,3 +206,55 @@ a {
 }
 
 /* .network-ad-section end */
+
+
+.adsterra-benefits-section {
+    background-color: #efefef;
+    
+}
+.benefits-heading {
+    color: #333;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 500;
+}
+.benefits-heading span {
+    color: 
+    rgb(206, 0, 0);
+}
+.benefits-description {
+    padding-top: 80px;
+    padding-bottom: 48px;
+}
+.adsterra-benefits-parent {
+    display: flex;
+    padding: 0px 90px;
+    gap: 15px;
+    justify-content: space-between;
+}
+.adsterra-benefits-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 43%;
+}
+.adsterra-benefits-description img {
+    width: 115px;
+}
+.adsterra-benefits-btn a {
+    width: 180px;
+    height: 45px;
+    background-color: #333;
+}
+.adsterra-benefits-btn a:hover {
+    background-color: #ce0000;
+}
+.adsterra-benefits-btn img {
+    width: 24px;
+}
+.adsterra-benefits-description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+}
