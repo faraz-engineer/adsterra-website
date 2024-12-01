@@ -53,7 +53,7 @@ a {
 }
 
 .header-links:hover {
-    color: #ce0000;
+
     filter: brightness(0) saturate(100%) invert(8%) sepia(76%) saturate(7464%) hue-rotate(11deg) brightness(110%) contrast(118%);
 }
 
@@ -75,20 +75,24 @@ a {
     border: 1px solid #f5f5f5;
     border-radius: 4px;
     height: 45px;
-    min-width: 130px;
+    width: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 16px;
     font-weight: 500;
     transition: 0.3s ease;
-
 }
 
 .login-btn a {
     color: #333;
     text-decoration: none;
     font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 130px;
 
 }
 
@@ -210,51 +214,298 @@ a {
 
 .adsterra-benefits-section {
     background-color: #efefef;
-    
+
 }
+
 .benefits-heading {
     color: #333;
     font-size: 44px;
     text-align: center;
     font-weight: 500;
 }
+
 .benefits-heading span {
-    color: 
-    rgb(206, 0, 0);
+    color:
+        rgb(206, 0, 0);
 }
+
 .benefits-description {
     padding-top: 80px;
     padding-bottom: 48px;
 }
+
 .adsterra-benefits-parent {
     display: flex;
     padding: 0px 90px;
     gap: 15px;
     justify-content: space-between;
+    padding-bottom: 80px;
 }
+
 .adsterra-benefits-description {
     display: flex;
     flex-direction: column;
     gap: 20px;
     max-width: 43%;
 }
+
 .adsterra-benefits-description img {
     width: 115px;
 }
+
 .adsterra-benefits-btn a {
     width: 180px;
     height: 45px;
     background-color: #333;
 }
+
 .adsterra-benefits-btn a:hover {
     background-color: #ce0000;
 }
+
 .adsterra-benefits-btn img {
     width: 24px;
 }
-.adsterra-benefits-description p {
+
+.common-paragraph {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #333;
+}
+
+.advertiser-description {
+    gap: 10px;
+}
+
+.growth-area-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    padding: 80px 0px;
+
+}
+
+.growth-area-description h1 {
+    color: #333;
+    font-size: 44px;
+    padding-bottom: 50px;
+}
+
+.growth-area-description p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+.growth-area-parent img {
+    border-radius: 5px;
+}
+
+.growth-area-btn a {
+    width: 200px;
+    height: 40px;
+}
+
+.toggle-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #747474;
+    width: 50%;
+}
+
+.toggle-btn {
+    flex: 1;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    z-index: 1;
+    transition: color 0.3s ease;
+    height: 50px;
+    cursor: pointer;
+}
+
+.toggle-btn.active {
+    background-color: #fff;
+    color: #000;
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.popunder-heading {
+    padding-top: 35px;
+}
+
+.popunder-description-section {
+    background-color: #efefef;
+}
+
+.popunder-parent {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 100px;
+}
+
+.popunder-description h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.popunder-description p {
+    color: #747474;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.popunder-mid-points {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.popunder-images {
+    width: 25%;
+}
+
+.popunder-images img {
+    width: 100%;
+}
+
+.popunder-description {
+    padding-top: 15px;
+}
+
+.popunder-mid-points p {
+    line-height: 55px;
+
+}
+
+.popunder-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 15px;
+
+}
+
+.popunder-links a {
+    height: 42px;
+    width: 170px;
+}
+
+.learn-more-btn a {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #f5f5f5;
+    transition: 0.3s ease;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.learn-more-btn a:hover {
+    border: 1px solid rgb(116, 116, 116);
+}
+
+.popunder-links img {
+    position: relative;
+    left: 7px;
+}
+
+.online-ad-parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding-bottom: 65px;
+}
+
+.online-ad-description {
+    width: 23%;
+}
+
+.online-ad-heading {
+    padding-bottom: 48px;
+}
+
+.online-ad-image {
+    border-radius: 18px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    background-color: #ce0000;
+    margin-bottom: 25px;
+}
+
+.online-ad-description img {
+    aspect-ratio: 1 / 1;
+    height: 36px;
+}
+
+.online-ad-description h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #333;
+    padding-bottom: 15px;
+}
+
+.online-ad-description p {
+    color: #747474;
+}
+.join-adsterra-parent {
+ background-image: url(/images/background.webp);
+ margin: 65px 60px 80px 60px;
+ border-radius: 24px;
+ background-position: 0;
+ background-size: cover;
+ text-align: center;
+}
+.join-adsterra-description {
+    padding-top: 80px;
+}
+.join-adsterra-description h1 {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 110%;
+    padding-bottom: 10px;
+}
+.join-adsterra-description p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+.join-btn {
+    justify-content: center;
+    padding-bottom: 80px;
 }
