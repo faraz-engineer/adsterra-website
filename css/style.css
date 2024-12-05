@@ -1090,26 +1090,153 @@ footer {
     opacity: 1;
     /* Ensure the active button is fully visible */
 }
+
 .publisher-profit-points-section {
     background-color: #efefef;
 }
+
 .publisher-profit-parent {
     justify-content: center;
     gap: 20px;
     padding: 80px 0px;
+    margin-bottom: 60px;
 }
+
 .publisher-profit-image {
     width: 35%;
 }
+
 .publisher-profit-points {
     max-width: 46%;
     padding: 0px 4px;
 }
+
 .publisher-profit-points-heading {
     font-size: 32px;
     padding-bottom: 32px;
     text-align: unset;
 }
+
 .publisher-profit-btn .signup-btn {
     width: 250px;
+}
+
+.monetization-heading {
+    padding-top: 60px;
+    padding-bottom: 48px;
+}
+
+.monetization-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 120px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h4 {
+    color: #ce0000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    padding-bottom: 20px;
+}
+
+.text-content p {
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+}
+
+.bordered-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bordered-links li {
+    border-top: 1px solid #333;
+    padding: 20px 0;
+}
+
+.bordered-links li a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #333;
+}
+
+.image-content {
+    max-width: 47%;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.publisher-trust-section {
+    background-color: #efefef;
+}
+
+.publisher-trust-heading {
+    padding-top: 100px;
+}
+
+.adsterra-parent-heading {
+    padding-bottom: 50px;
+}
+
+.payment-heading {
+    padding: 50px 0px;
+}
+
+
+.payment-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.payment-note {
+    margin-top: 10px;
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+}
+.join-publisher-adsterra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-adsterra-description-paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.join-publisher-adsterra {
+    max-width: 13%;
+}
+.join-publisher-adsterra h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.publisher-blog {
+    text-align: center;
+}
+.publisher-faq {
+    padding-bottom: 120px;
 }
