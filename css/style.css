@@ -1240,3 +1240,71 @@ footer {
 .publisher-faq {
     padding-bottom: 120px;
 }
+
+
+.advertiser-btn a {
+ width: 250px;
+}
+
+.advertising-benefits-section {
+    background-color: #efefef;
+}
+
+.advertising-benefits-heading {
+    padding-top: 100px;
+    padding-bottom: 48px;
+}
+.advertising-benefits-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.advertising-benefits-description {
+    width: 44%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 35px;
+}
+.adsterra-benefits-parent:nth-child(1) {
+     height: 20vh;
+}
+.brand-heading {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: unset;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.brand-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 35px;
+}
+.dsp-button {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.dsp-button a {
+    font-size: 16px;
+    font-weight: 500;
+}
+.dsp-button svg {
+    position: relative;
+    top: 3px;
+    left: 4px;
+}
+.advertising-description {
+    padding-bottom: 40px;
+}
+.agencies-paragraph {
+    padding-bottom: 20px;
+}
+.affiliate-team-paragraph {
+    padding-bottom: 55px;
+}
