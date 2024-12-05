@@ -227,6 +227,7 @@ a {
 .benefits-heading span {
     color:
         rgb(206, 0, 0);
+    font-family: 'Rubik';
 }
 
 .benefits-description {
@@ -429,6 +430,7 @@ a {
     border-radius: 4px;
     font-size: 16px;
     font-weight: 500;
+    width: 170px !important;
 }
 
 .learn-more-btn a:hover {
@@ -766,9 +768,11 @@ footer {
     cursor: pointer;
     color: #747474;
 }
+
 .footer-column-links {
     margin-top: 25px;
 }
+
 .footer-column ul {
     list-style: none;
     padding: 0;
@@ -791,21 +795,24 @@ footer {
     color: #ce0000;
 }
 
-.pricing-models-links ul  {
+.pricing-models-links ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 15px;
 }
+
 .footer-link {
     color: #333;
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
 }
+
 .footer-link:hover {
     color: #ce0000;
 }
+
 .highlight {
     color: #ff4a4a;
     font-weight: bold;
@@ -874,13 +881,16 @@ footer {
     justify-content: center;
     gap: 10px;
 }
+
 .policy-links li a {
     font-size: 12px;
     color: #333;
 }
+
 .policy-links li a:hover {
     color: #ce0000;
 }
+
 .policy-terms span {
     font-weight: 600;
     color: #333;
@@ -893,6 +903,7 @@ footer {
     justify-content: space-between;
     margin: 10px 0px;
 }
+
 .policy-heading {
     font-size: 13px;
     font-style: normal;
@@ -900,12 +911,205 @@ footer {
     margin: 0px;
     font-family: 'Rubik';
 }
+
 .policy-terms {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 4px;
 }
+
 .report-button a {
     color: #333;
+}
+
+
+
+/* publisher-section start */
+.publisher-section {
+    background-color: #efefef;
+    z-index: 1;
+    position: relative;
+}
+
+.publisher-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.publisher-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    margin-bottom: 40px;
+}
+
+.publisher-description {
+    max-width: 44%;
+    padding-top: 155px;
+}
+
+.publisher-description p {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 110%;
+    color: #ce0000;
+    text-align: unset;
+    margin-bottom: 0.5rem;
+    font-family: 'Rubik';
+}
+
+.publisher-description h1 {
+    text-align: unset;
+    margin-bottom: 8px;
+}
+
+.publisher-description h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: unset;
+    margin-bottom: 20px;
+}
+
+.publisher-description-image {
+    background-image: url(/images/background.c7487da.png);
+    width: 51%;
+    position: relative;
+    z-index: 2;
+}
+
+.publisher-ratings {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.publisher-rating-description {
+    padding: 0px 25px;
+    max-width: 30%;
+}
+
+.publisher-rating-description h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.publisher-rating-description p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.publisher-image {
+    padding-top: 20px;
+}
+
+.publisher-image img {
+    width: 90%;
+    float: right;
+}
+
+.publisher-btn img {
+    width: 25px;
+}
+
+.publisher-btn a {
+    width: 200px;
+}
+
+.icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.icon-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28%;
+    height: 120px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    gap: 24px;
+}
+
+
+
+.icon-card span {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.publisher-profit-heading {
+    margin-bottom: 48px;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0px;
+}
+
+.button-group a {
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #fff;
+    color: #333;
+    transition: all 0.2s ease;
+    opacity: 1;
+}
+
+.button-group a:hover {
+    background-color: rgba(206, 0, 0, 0.3);
+    border-color: #ccc;
+    ;
+}
+
+.button-group a.active {
+    background-color: #ce0000;
+    color: #fff;
+    border-color: red;
+    opacity: 1;
+    /* Ensure the active button is fully visible */
+}
+.publisher-profit-points-section {
+    background-color: #efefef;
+}
+.publisher-profit-parent {
+    justify-content: center;
+    gap: 20px;
+    padding: 80px 0px;
+}
+.publisher-profit-image {
+    width: 35%;
+}
+.publisher-profit-points {
+    max-width: 46%;
+    padding: 0px 4px;
+}
+.publisher-profit-points-heading {
+    font-size: 32px;
+    padding-bottom: 32px;
+    text-align: unset;
+}
+.publisher-profit-btn .signup-btn {
+    width: 250px;
 }
