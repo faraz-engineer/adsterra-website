@@ -1047,6 +1047,7 @@ footer {
     font-size: 24px;
     font-weight: 500;
     line-height: 120%;
+    font-family: 'Rubik';
 }
 
 .publisher-profit-heading {
@@ -1214,36 +1215,42 @@ footer {
     font-size: 16px;
     font-weight: 400;
 }
+
 .join-publisher-adsterra {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .join-adsterra-description-paragraph {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
+
 .join-publisher-adsterra {
     max-width: 13%;
 }
+
 .join-publisher-adsterra h1 {
     color: #fff;
     font-size: 60px;
     font-weight: 700;
     line-height: 110%;
 }
+
 .publisher-blog {
     text-align: center;
 }
+
 .publisher-faq {
     padding-bottom: 120px;
 }
 
 
 .advertiser-btn a {
- width: 250px;
+    width: 250px;
 }
 
 .advertising-benefits-section {
@@ -1254,12 +1261,14 @@ footer {
     padding-top: 100px;
     padding-bottom: 48px;
 }
+
 .advertising-benefits-parent {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
+    padding-bottom: 128px;
 }
 
 .advertising-benefits-description {
@@ -1268,9 +1277,11 @@ footer {
     border-radius: 10px;
     padding: 35px;
 }
+
 .adsterra-benefits-parent:nth-child(1) {
-     height: 20vh;
+    height: 20vh;
 }
+
 .brand-heading {
     font-size: 24px;
     font-style: normal;
@@ -1279,32 +1290,213 @@ footer {
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
 .brand-paragraph {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     padding-bottom: 35px;
 }
+
 .dsp-button {
     display: flex;
     align-items: center;
     gap: 35px;
 }
+
 .dsp-button a {
     font-size: 16px;
     font-weight: 500;
 }
+
 .dsp-button svg {
     position: relative;
     top: 3px;
     left: 4px;
 }
+
 .advertising-description {
     padding-bottom: 40px;
 }
+
 .agencies-paragraph {
     padding-bottom: 20px;
 }
+
 .affiliate-team-paragraph {
     padding-bottom: 55px;
+}
+
+
+.audience-offer-heading {
+    padding-top: 100px;
+    margin-bottom: 48px;
+}
+
+.audience-offer-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding-bottom: 80px;
+}
+
+.audience-offer-image {
+    max-width: 38%;
+}
+
+.audience-offer-image img {
+    width: 100%;
+}
+
+.audience-offer-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 45%;
+    gap: 15px;
+}
+
+.audience-offer-description h1 {
+    font-size: 32px;
+    text-align: unset;
+}
+
+.audience-offer-description p {
+    text-align: unset;
+    font-size: 20px;
+}
+
+.audience-offer-description p a {
+    text-decoration: underline;
+    color: #6202ee;
+}
+
+.join-pros-heading {
+    margin-bottom: 48px;
+}
+
+.advertiser-card {
+    height: unset;
+    width: 28%;
+    display: unset;
+}
+
+.advertiser-card a {
+    color: #333;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+.advertiser-card a img {
+    padding-right: 24px;
+}
+
+.advertiser-card a:hover {
+    background-color: #efefef;
+    color: #ce0000;
+    border-radius: 10px;
+}
+
+.ads-traffic-heading {
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.ads-traffic-heading h1 {
+    padding: unset;
+}
+
+.ads-traffic-heading img {
+    position: relative;
+    left: 13px;
+}
+
+.ads-traffic-point-parent {
+    display: flex;
+}
+
+.ads-traffic-point p {
+    line-height: unset;
+    padding-bottom: 20px;
+}
+
+.ads-traffic-point img {
+    position: relative;
+    bottom: 10px;
+}
+
+.ads-traffic-point-description h4 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.ads-traffic-parent {
+    justify-content: space-around;
+}
+
+.online-ad-description a {
+    color: #6202ee;
+    text-decoration: underline;
+}
+
+.payment-system-heading {
+    padding-top: 65px;
+}
+
+.payment-system {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.advertiser-join-btn a {
+    width: 200px;
+}
+.partnership-section {
+    background-color: #efefef;
+    margin-top: -160px;
+    background-image: url(/images/background_c496d3f\ \(1\).webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 190vh 200vh;
+    position: relative;
+    z-index: 1;
+}
+.join-advertiser-parent {
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 2;
+}
+.partnership-description {
+    max-width: 38%;
+}
+
+.advertiser-parent {
+    padding-top: 225px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.advertiser-description-image {
+    width: 40%;
+}
+.advertiser-description-image img {
+    width: 100%;
+}
+.faq-description ul li {
+    font-family: 'Roboto';
+}
+.faq-description ul {
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.native-advertising-section {
+    background-color: #efefef;
 }
