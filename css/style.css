@@ -1456,9 +1456,11 @@ footer {
     justify-content: center;
     padding: 50px 0px;
 }
+
 .advertiser-join-btn a {
     width: 200px;
 }
+
 .partnership-section {
     background-color: #efefef;
     margin-top: -160px;
@@ -1469,11 +1471,13 @@ footer {
     position: relative;
     z-index: 1;
 }
+
 .join-advertiser-parent {
     margin-bottom: 0px;
     position: relative;
     z-index: 2;
 }
+
 .partnership-description {
     max-width: 38%;
 }
@@ -1483,20 +1487,108 @@ footer {
     padding-bottom: 100px;
     margin-bottom: 100px;
 }
+
 .advertiser-description-image {
     width: 40%;
 }
+
 .advertiser-description-image img {
     width: 100%;
 }
+
 .faq-description ul li {
     font-family: 'Roboto';
 }
+
 .faq-description ul {
     padding-left: 35px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .native-advertising-section {
     background-color: #efefef;
+}
+
+.native-advertising-parent {
+    justify-content: space-between;
+}
+
+.native-advertising-description {
+    padding-left: 35px;
+}
+
+.network-image {
+    width: 45%;
+}
+
+.native-btn {
+    padding-top: 55px;
+}
+
+.native-ad-parent {
+    padding-top: 120px;
+}
+
+.native-payment-system {
+    padding-bottom: 0px;
+}
+
+.native-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.native-benefits-description {
+    width: 22%;
+    padding: 25px;
+}
+.native-benefits-description h3 {
+    padding-top: 30px;
+}
+.native-benefits-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.native-benefits-parent {
+    padding-bottom: 60px;
+}
+
+.adsterra-native-ads-heading {
+    padding-top: 120px;
+    padding-bottom: 48px;
+}
+.adsterra-native-ads-paragraph {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.adsterra-native-ads-description {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.adsterra-native-ads-description img {
+    width: 100%;
+}
+.adsterra-native-ads-description h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: unset;
+}
+.adsterra-native-ads-description p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.adsterra-native-ads-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
 }
