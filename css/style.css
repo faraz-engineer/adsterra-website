@@ -30,6 +30,9 @@ a {
 }
 
 /* header start */
+.header {
+    overflow: hidden;
+}
 .navigation-link {
     display: flex;
     align-items: center;
@@ -125,6 +128,7 @@ a {
 /* network-section start */
 .advance-network-section {
     background-image: url(/images/background-image.webp);
+    overflow: hidden;
 }
 
 .advance-network-parent {
@@ -190,10 +194,14 @@ a {
 /* network-section end */
 
 /* .network-ad-section start */
+.network-ad-section {
+    overflow: hidden;
+}
 .network-ad-parent {
     display: flex;
     align-items: center;
     padding: 50px 0px;
+    flex-wrap: wrap;
 }
 
 .network-ad-logos {
@@ -214,6 +222,7 @@ a {
 
 .adsterra-benefits-section {
     background-color: #efefef;
+    overflow: hidden;
 
 }
 
@@ -277,6 +286,9 @@ a {
 
 .advertiser-description {
     gap: 10px;
+}
+.growth-area-section {
+    overflow: hidden;
 }
 
 .growth-area-parent {
@@ -351,7 +363,9 @@ a {
     border-radius: 25px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
-
+.popunder-section {
+    overflow: hidden;
+}
 .popunder-heading {
     padding-top: 35px;
 }
@@ -365,6 +379,7 @@ a {
     justify-content: space-between;
     padding-top: 2rem;
     padding-bottom: 100px;
+    overflow: hidden;
 }
 
 .popunder-description h1 {
@@ -416,7 +431,9 @@ a {
     height: 42px;
     width: 170px;
 }
-
+.social-bar-section {
+    overflow: hidden;
+}
 .learn-more-btn a {
     color: #333;
     text-decoration: none;
@@ -448,6 +465,7 @@ a {
     flex-wrap: wrap;
     gap: 70px;
     padding-bottom: 65px;
+    overflow: hidden;
 }
 
 .online-ad-description {
@@ -492,6 +510,7 @@ a {
     background-position: 0;
     background-size: cover;
     text-align: center;
+    overflow: hidden;
 }
 
 .join-adsterra-description {
@@ -531,6 +550,8 @@ a {
     justify-content: space-around;
     align-items: center;
     padding-bottom: 70px;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .rating-section-img {
@@ -584,6 +605,7 @@ a {
 
 .supporting-section {
     background-color: #ce0000;
+    overflow: hidden;
 }
 
 .supporting-parent {
@@ -591,7 +613,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 0px;
-    margin-bottom: 120px;
+    
 }
 
 .supporting-parent a {
@@ -641,6 +663,9 @@ a {
 .faq-main-heading {
     padding-bottom: 48px;
 }
+.faq-section {
+    padding-top: 120px;
+}
 
 .faq-parent {
     display: flex;
@@ -685,6 +710,7 @@ a {
     gap: 15px;
     justify-content: center;
     padding-bottom: 120px;
+    flex-wrap: wrap;
 }
 
 .blog-description {
@@ -756,6 +782,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .footer-column {
@@ -1060,6 +1088,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 32px 0px;
+    flex-wrap: wrap;
 }
 
 .button-group a {
@@ -1207,6 +1236,7 @@ footer {
     justify-content: center;
     gap: 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .payment-note {
@@ -1455,6 +1485,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 50px 0px;
+    flex-wrap: wrap;
 }
 
 .advertiser-join-btn a {
@@ -1489,7 +1520,7 @@ footer {
 }
 
 .advertiser-description-image {
-    width: 40%;
+    max-width: 40%;
 }
 
 .advertiser-description-image img {
@@ -1591,4 +1622,15 @@ footer {
     justify-content: center;
     gap: 15px;
     padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.hamburger {
+    display: none;
+}
+.responsive-logo {
+    display: none;
+}
+.publisher-profit-section {
+    overflow: hidden;
 }

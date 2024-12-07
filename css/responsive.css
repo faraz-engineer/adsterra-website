@@ -1,0 +1,863 @@
+@media only screen and (max-width: 1200px) {
+    .hamburger {
+        display: block;
+        padding-left: 20px;
+    }
+
+    .header-user-links {
+        padding-right: 20px;
+    }
+
+    .navbar {
+        display: none;
+
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .advance-network-parent {
+        flex-direction: column-reverse;
+    }
+
+    .common-heading {
+        text-align: center;
+    }
+
+    .common-btn {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .advance-network-description {
+        padding: 0px;
+    }
+
+    .network-ad-parent {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .growth-area-parent {
+        flex-direction: column-reverse;
+
+    }
+
+    .growth-area-description {
+        padding-left: 33px;
+    }
+
+    .growth-area-description h1 {
+        text-align: unset;
+    }
+
+    .growth-area-parent-img {
+        width: 90%;
+    }
+
+    .toggle {
+        width: 70%;
+    }
+
+    .popunder-parent {
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .popunder-description h1 {
+        text-align: unset;
+    }
+
+    .popunder-images {
+        width: 75%;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+
+    .online-ad-description {
+        width: 42%;
+    }
+
+    .online-ad-description h3 {
+        text-align: unset;
+    }
+
+    .join-adsterra-parent {
+        margin: 65px 30px 80px 30px;
+    }
+
+    .adsterra-leadership-section {
+        display: none;
+    }
+
+    .supporting-section {
+        display: none;
+    }
+
+    .blog-description {
+        width: 90%;
+    }
+
+    .blog-parent {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .icon-card {
+        width: 45%;
+    }
+    .native-advertising-parent {
+        flex-direction: unset;
+    }
+    .adsterra-native-ads-parent {
+        gap: 30px;
+    }
+    .adsterra-native-ads-description {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .advance-network-parent {
+        flex-direction: column-reverse;
+    }
+
+    .common-heading {
+        text-align: center;
+    }
+
+    .common-btn {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .advance-network-description {
+        padding: 0px;
+    }
+
+    .network-ad-parent {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .adsterra-benefits-description {
+        max-width: 70%;
+    }
+
+    .adsterra-benefits-parent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .benefits-description h1 {
+        font-size: 40px;
+    }
+
+    .adsterra-benefits-parent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .growth-area-parent {
+        flex-direction: column-reverse;
+
+    }
+
+    .growth-area-description {
+        padding-left: 33px;
+    }
+
+    .growth-area-description h1 {
+        text-align: unset;
+    }
+
+    .growth-area-parent-img {
+        width: 90%;
+    }
+
+    .toggle {
+        width: 95%;
+    }
+
+    .popunder-parent {
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .popunder-description h1 {
+        text-align: unset;
+    }
+
+    .popunder-links {
+        flex-direction: column;
+    }
+
+    .popunder-links a {
+        width: 90%;
+    }
+
+    .learn-more-btn {
+        width: 100%;
+    }
+
+    .learn-more-btn a {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .popunder-images {
+        width: 75%;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+
+    .socialbar-link a {
+        width: 90% !important;
+    }
+
+    .benefits-heading {
+        font-size: 40px;
+    }
+
+    .online-ad-description {
+        width: 42%;
+    }
+
+    .online-ad-description h3 {
+        text-align: unset;
+    }
+
+    .join-adsterra-parent {
+        margin: 65px 30px 80px 30px;
+    }
+
+    .rating-heading {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .rating-section-parent {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 34px;
+        gap: 40px;
+    }
+
+    .rating-description {
+        max-width: 90%;
+    }
+
+    .adsterra-leadership-section {
+        display: none;
+    }
+
+    .supporting-section {
+        display: none;
+    }
+
+    .faq-section {
+        padding: 0px;
+    }
+
+    .faq-heading {
+        font-size: 20px;
+    }
+
+    .faq-parent {
+        align-items: baseline;
+    }
+
+    .scrole-bar {
+        bottom: 2px;
+    }
+
+    .blog-description {
+        width: 90%;
+    }
+
+    .blog-parent {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-column {
+        width: 33%;
+    }
+
+    .policy-description {
+        flex-direction: column-reverse;
+        gap: 12px
+    }
+
+    .publisher-parent {
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    .publisher-description-image {
+        width: 100%;
+    }
+
+    .publisher-ratings {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .publisher-rating-description {
+        max-width: 100%;
+    }
+
+    .publisher-rating-description h3 {
+        padding-top: 15px;
+    }
+
+    .publisher-description {
+        max-width: 100%;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .publisher-heading h1 {
+        font-size: 24px;
+    }
+
+    .icon-card {
+        width: 90%;
+    }
+
+    .publisher-profit-heading h1 {
+        text-align: unset;
+        font-size: 24px;
+    }
+
+    .button-group a {
+        width: 47%;
+    }
+
+    .publisher-profit-points {
+        max-width: 100%;
+        padding: 0px 4px;
+    }
+
+    .publisher-profit-points h1 {
+        text-align: unset;
+    }
+
+    .publisher-profit-btn .signup-btn {
+        width: 90%;
+    }
+
+    .monetization-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-content {
+        max-width: 90%;
+    }
+
+    .join-publisher-adsterra {
+        max-width: 29%;
+        flex-direction: column;
+    }
+
+    .join-adsterra-description h1 {
+        font-size: 42px;
+    }
+
+    .join-adsterra-description {
+        padding: 20px;
+    }
+
+    .advertising-benefits-heading h1 {
+        text-align: unset;
+        font-size: 32px;
+        padding-left: 10px;
+    }
+
+    .advertising-benefits-description {
+        width: 48%;
+        padding: 20px;
+    }
+
+    .dsp-button {
+        gap: 15px;
+    }
+
+    .audience-offer-heading h1 {
+        text-align: unset;
+        font-size: 32px;
+        padding-left: 33px;
+    }
+
+    .audience-offer-parent {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .audience-offer-image {
+        max-width: 90%;
+    }
+
+    .audience-offer-description {
+        max-width: 90%;
+    }
+
+    .audience-offer-description h1 {
+        margin: 0px;
+    }
+
+    .benefits-description h1 {
+        font-size: 30px;
+    }
+
+    .publisher-profit-points h1 {
+        text-align: unset;
+        margin: 0px;
+    }
+
+    .advertiser-parent {
+        flex-direction: column;
+        margin-top: 140px;
+        gap: 30px;
+    }
+
+    .partnership-section {
+        background-size: 75vh 82vh;
+    }
+
+    .partnership-description h1 {
+        padding-top: 50px;
+    }
+
+    .advertiser-description-image {
+        max-width: 90%;
+    }
+
+    .advertiser-btn a {
+        width: 655px !important;
+    }
+    .icon-card {
+        width: 48%;
+    }
+    .native-advertising-image {
+        width: 90%;
+    }
+    .native-advertising-description {
+        padding-left: 36px;
+    }
+    .adsterra-native-ads-parent {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .adsterra-native-ads-description {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .responsive-logo {
+        display: block;
+    }
+
+    .header-logo a {
+        display: none;
+    }
+
+    .network-image {
+        display: none;
+    }
+
+    .common-heading {
+        font-size: 36px;
+        text-align: center;
+        padding-top: 80px;
+        max-width: 81%;
+
+    }
+
+    .benefits-heading {
+        margin: 0 auto;
+    }
+
+    .network-small-heading {
+        font-size: 20px;
+        padding-top: 2px;
+    }
+
+    .common-btn {
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+
+    .glowing-btn {
+        background-color: #fff;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+
+    .network-ad-parent {
+        padding: 50px 20px;
+        flex-wrap: wrap;
+        gap: 40px
+    }
+
+    .network-ad-logos {
+        width: 42%;
+    }
+
+    .adsterra-benefits-parent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .growth-area-parent {
+        flex-direction: column-reverse;
+
+    }
+
+    .growth-area-description {
+        padding-left: 33px;
+    }
+
+    .growth-area-description h1 {
+        text-align: unset;
+        font-size: 24px;
+    }
+
+    .growth-area-parent-img {
+        width: 90%;
+    }
+
+    .popunder-heading h1 {
+        text-align: unset;
+        font-size: 33px;
+    }
+
+    .toggle {
+        width: 95%;
+    }
+
+    .popunder-parent {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .popunder-description h1 {
+        text-align: unset;
+    }
+
+    .popunder-links {
+        flex-direction: column;
+    }
+
+    .popunder-links a {
+        width: 90%;
+    }
+
+    .learn-more-btn {
+        width: 100%;
+    }
+
+    .learn-more-btn a {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .popunder-images {
+        width: 75%;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+
+    .socialbar-link a {
+        width: 90% !important;
+    }
+
+    .online-ad-heading h1 {
+        margin: unset;
+        text-align: unset;
+        padding-left: 20px;
+        font-size: 24px;
+    }
+
+    .online-ad-description {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .online-ad-description h3 {
+        text-align: unset;
+        padding-top: 20px;
+    }
+
+    .join-adsterra-parent {
+        margin: 0px;
+    }
+
+    .common-btn {
+        padding-left: 33px;
+    }
+
+    .join-adsterra-description h1 {
+        margin: auto;
+    }
+
+    .rating-heading {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .rating-section-parent {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 34px;
+        gap: 40px;
+    }
+
+    .rating-description {
+        max-width: 100%;
+    }
+
+    .adsterra-leadership-section {
+        display: none;
+    }
+
+    .supporting-section {
+        display: none;
+    }
+
+    .faq-section {
+        padding: 0px;
+    }
+
+    .faq-heading {
+        font-size: 20px;
+    }
+
+    .faq-parent {
+        align-items: baseline;
+    }
+
+    .scrole-bar {
+        bottom: -2px;
+    }
+
+    .blog-description {
+        width: 90%;
+    }
+
+    .blog-parent {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-sections {
+        gap: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .policy-description {
+        flex-direction: column-reverse;
+        gap: 12px
+    }
+
+    .publisher-parent {
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    .publisher-description-image {
+        width: 100%;
+    }
+
+    .publisher-ratings {
+        flex-direction: column;
+    }
+
+    .publisher-rating-description {
+        max-width: 100%;
+    }
+
+    .publisher-rating-description h3 {
+        padding-top: 15px;
+    }
+
+    .publisher-description {
+        max-width: 100%;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .publisher-heading h1 {
+        font-size: 24px;
+    }
+
+    .icon-card {
+        width: 90%;
+    }
+
+    .publisher-profit-heading h1 {
+        text-align: unset;
+        font-size: 24px;
+    }
+
+    .button-group a {
+        width: 47%;
+    }
+
+    .publisher-profit-points {
+        max-width: 100%;
+        padding: 0px 4px;
+    }
+
+    .publisher-profit-points h1 {
+        text-align: unset;
+    }
+
+    .publisher-profit-btn .signup-btn {
+        width: 90%;
+    }
+
+    .monetization-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-content {
+        max-width: 90%;
+    }
+
+    .join-publisher-adsterra {
+        max-width: 29%;
+        flex-direction: column;
+    }
+
+    .join-adsterra-description h1 {
+        font-size: 42px;
+    }
+
+    .join-adsterra-description {
+        padding: 0px;
+    }
+
+    .common-heading {
+        padding-top: 10px;
+    }
+
+    .advertiser-btn a {
+        width: 365px !important;
+    }
+
+    .advertising-benefits-heading h1 {
+        text-align: unset;
+        font-size: 24px;
+    }
+
+    .advertising-benefits-description {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .dsp-button {
+        gap: 15px;
+    }
+
+    .audience-offer-heading h1 {
+        text-align: unset;
+        font-size: 24px;
+    }
+
+    .audience-offer-parent {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .audience-offer-image {
+        max-width: 90%;
+    }
+
+    .audience-offer-description {
+        max-width: 90%;
+    }
+
+    .audience-offer-description h1 {
+        margin: 0px;
+    }
+
+    .benefits-description h1 {
+        font-size: 30px;
+    }
+
+    .publisher-profit-points h1 {
+        text-align: unset;
+        margin: 0px;
+    }
+
+    .advertiser-parent {
+        flex-direction: column;
+        margin-top: 140px;
+        gap: 30px;
+    }
+
+    .partnership-section {
+        background-size: 47vh 77vh;
+    }
+
+    .partnership-description h1 {
+        padding-top: 50px;
+    }
+
+    .advertiser-description-image {
+        max-width: 90%;
+    }
+    .native-advertising-image {
+        display: block;
+        width: 90%;
+    }
+    .publisher-description p {
+        text-align: unset;
+    }
+    .native-advertising-description {
+        padding-left: 22px;
+    }
+    .native-advertising-description h1, .native-advertising-description p, .native-advertising-description h4 {
+        margin: 0px;
+    }
+    .adsterra-native-ads-heading {
+        padding-top: 50px;
+        padding-bottom: 48px;
+    }
+    .adsterra-native-ads-heading h1 {
+        font-size: 28px;
+    }
+    .adsterra-native-ads-paragraph {
+        font-size: 18px;
+    }
+    .adsterra-native-ads-parent {
+        flex-direction: column;
+    }
+    .adsterra-native-ads-description {
+        width: 90%;
+    }
+    .adsterra-native-ads-description p {
+        text-align: center;
+    }    
+}
