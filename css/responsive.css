@@ -4,6 +4,7 @@
         padding-left: 20px;
     }
 
+
     .header-user-links {
         padding-right: 20px;
     }
@@ -12,6 +13,49 @@
         display: none;
 
     }
+
+    .navbar {
+        display: flex;
+        position: absolute;
+        top: -100px;
+        left: 0;
+        right: 0;
+        height: 9vh;
+        background-color: #efefef;
+        z-index: 999;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease;
+    }
+
+    .navbar.active {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 9vh;
+        background-color: #efefef;
+        z-index: 999;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+     .mobile-nav-close-btn {
+        opacity: 0;
+     }
+    .active .mobile-nav-close-btn {
+        opacity: 1;
+        display: inline-block;
+        position: absolute;
+        z-index: 9999;
+        top: 25px;
+        left: 28px;
+
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -106,12 +150,15 @@
     .icon-card {
         width: 45%;
     }
+
     .native-advertising-parent {
         flex-direction: unset;
     }
+
     .adsterra-native-ads-parent {
         gap: 30px;
     }
+
     .adsterra-native-ads-description {
         width: 48%;
     }
@@ -445,21 +492,70 @@
     .advertiser-btn a {
         width: 655px !important;
     }
+
     .icon-card {
         width: 48%;
     }
+
     .native-advertising-image {
         width: 90%;
     }
+
     .native-advertising-description {
         padding-left: 36px;
     }
+
     .adsterra-native-ads-parent {
         flex-direction: column;
         gap: 50px;
     }
+
     .adsterra-native-ads-description {
         width: 90%;
+    }
+    .navbar {
+        display: flex;
+        position: absolute;
+        top: -100px;
+        left: 0;
+        right: 0;
+        height: 9vh;
+        background-color: #efefef;
+        z-index: 999;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease;
+       
+    }
+    
+    .navbar.active {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        background-color: #efefef;
+        z-index: 999;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 70px;
+    }
+    
+    
+    
+     .mobile-nav-close-btn {
+        opacity: 0;
+     }
+    .active .mobile-nav-close-btn {
+        opacity: 1;
+        display: inline-block;
+        position: absolute;
+        z-index: 9999;
+        top: 25px;
+        left: 28px;
+    
     }
 }
 
@@ -828,36 +924,105 @@
     .advertiser-description-image {
         max-width: 90%;
     }
+
     .native-advertising-image {
         display: block;
         width: 90%;
     }
+
     .publisher-description p {
         text-align: unset;
     }
+
     .native-advertising-description {
         padding-left: 22px;
     }
-    .native-advertising-description h1, .native-advertising-description p, .native-advertising-description h4 {
+
+    .native-advertising-description h1,
+    .native-advertising-description p,
+    .native-advertising-description h4 {
         margin: 0px;
     }
+
     .adsterra-native-ads-heading {
         padding-top: 50px;
         padding-bottom: 48px;
     }
+
     .adsterra-native-ads-heading h1 {
         font-size: 28px;
     }
+
     .adsterra-native-ads-paragraph {
         font-size: 18px;
     }
+
     .adsterra-native-ads-parent {
         flex-direction: column;
     }
+
     .adsterra-native-ads-description {
         width: 90%;
     }
+
     .adsterra-native-ads-description p {
         text-align: center;
-    }    
+    }
+
+    .advance-network-description {
+        align-items: center;
+    }
+
+    .glowing-btn a {
+        width: 437px;
+    }
+
+.navbar {
+    display: flex;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    height: 9vh;
+    background-color: #efefef;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+   
+}
+
+.navbar.active {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #efefef;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+
+
+ .mobile-nav-close-btn {
+    opacity: 0;
+ }
+.active .mobile-nav-close-btn {
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    z-index: 9999;
+    top: 25px;
+    left: 28px;
+
+}
+.common-btn {
+    padding-left: 0;
+    
+}
 }
