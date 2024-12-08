@@ -20,7 +20,7 @@
         top: -100px;
         left: 0;
         right: 0;
-        height: 9vh;
+        height: 30vh;
         background-color: #efefef;
         z-index: 999;
         justify-content: center;
@@ -34,7 +34,7 @@
         top: 0;
         left: 0;
         right: 0;
-        height: 9vh;
+        height: 30vh;
         background-color: #efefef;
         z-index: 999;
         justify-content: center;
@@ -519,7 +519,7 @@
         top: -100px;
         left: 0;
         right: 0;
-        height: 9vh;
+        height: 10vh;
         background-color: #efefef;
         z-index: 999;
         justify-content: center;
@@ -534,7 +534,7 @@
         top: 0;
         left: 0;
         right: 0;
-        height: 100vh;
+        height: 120vh;
         background-color: #efefef;
         z-index: 999;
         justify-content: center;
@@ -983,7 +983,7 @@
     top: -100px;
     left: 0;
     right: 0;
-    height: 9vh;
+    height: 100vh;
     background-color: #efefef;
     z-index: 999;
     justify-content: center;
@@ -998,7 +998,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 100vh;
+    height: 120vh;
     background-color: #efefef;
     z-index: 999;
     justify-content: center;
@@ -1023,6 +1023,5 @@
 }
 .common-btn {
     padding-left: 0;
-    
 }
 }
