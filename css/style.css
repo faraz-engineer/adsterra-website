@@ -207,6 +207,7 @@ a {
 .network-ad-logos {
     display: flex;
     align-items: center;
+    width: 20%;
 }
 
 .network-ad-logos span {
@@ -597,6 +598,10 @@ a {
     flex-wrap: wrap;
     gap: 45px;
     padding-bottom: 3rem;
+    padding-top: 50px;
+}
+.leadership-programe img {
+    width: 20%;
 }
 
 .leadership-heading {
