@@ -53,24 +53,20 @@ a {
     text-decoration: none;
     color: #333;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .header-links:hover {
     filter: brightness(0) saturate(100%) invert(8%) sepia(76%) saturate(7464%) hue-rotate(11deg) brightness(110%) contrast(118%);
 }
-.center-navbar:hover .drop-menu {
-    display: block;
-    z-index: 10;
-}
+
 .header-user-links {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.header-links:hover svg {
-    transform: rotate(180deg);
-}
-.icons {
+
+.rotate-icon {
     position: relative;
     top: 2px;
     margin: 0px 2px;
@@ -79,13 +75,16 @@ a {
 .center-navbar {
     position: relative;
 }
-
 .drop-menu {
     display: block;
     position: absolute;
     top: 100%;
     left: 0;
     background-color: #fff;
+    z-index: 111;
+}
+.drop-menu {
+    display: none;
 }
 .drop-menu ul {
     display: block;
@@ -96,10 +95,6 @@ a {
     width: 100px;
     padding: 10px;
 }
-.drop-menu {
-    display: none;
-}
-
 
 .default-btn {
     background-color: white;
