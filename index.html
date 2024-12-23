@@ -329,11 +329,16 @@
             </div>
             <div class="toggle-wrapper">
                 <div class="toggle">
-                    <button class="toggle-btn active">Advertisers</button>
-                    <button class="toggle-btn">Publishers</button>
+                    <button id="advertiser-points-list-btn" onclick="onClickAdvetiserPublisherToggleButton('advertiser')" class="advertiser-publisher-toggle-btn toggle-btn active">Advertisers</button>
+                    <button id="publisher-points-list-btn" onclick="onClickAdvetiserPublisherToggleButton('publisher')" class="advertiser-publisher-toggle-btn toggle-btn">Publishers</button>
                 </div>
             </div>
         </div>
+
+    </section>
+    
+    
+    <section id="advertiser-points-list">
 
         <div class="popunder-description-section">
             <div class="container">
@@ -371,141 +376,336 @@
                     <div class="popunder-images">
                         <img src="images/popunder.png" alt="">
                     </div>
-
+    
                 </div>
             </div>
         </div>
-    </section>
-    <section class="social-bar-section">
-        <div class="container">
-            <div class="popunder-parent">
-                <div class="popunder-description">
-                    <h1 class="common-heading">Social Bar</h1>
-                    <p class="common-paragraph">UX-friendly ad formats that run on all OS <br> and in all browsers
-                    </p>
-                </div>
-                <div class="popunder-points">
-                    <div class="popunder-mid-points">
-                        <img src="images/popunder-points.svg" alt="">
-                        <p class="common-paragraph">Browser-friendly, non-intrusive ads with 9.9B monthly impressions.
+    
+        <div class="social-bar-section">
+            <div class="container">
+                <div class="popunder-parent">
+                    <div class="popunder-description">
+                        <h1 class="common-heading">Social Bar</h1>
+                        <p class="common-paragraph">UX-friendly ad formats that run on all OS <br> and in all browsers
                         </p>
                     </div>
-                    <div class="popunder-mid-points">
-                        <img src="images/popunder-points.svg" alt="">
-                        <p class="common-paragraph">Out-of-the-box template creatives with 30X higher CTRs compared to
-                            web push. </p>
-                    </div>
-                    <div class="popunder-mid-points">
-                        <img src="images/popunder-points.svg" alt="">
-                        <p class="common-paragraph">Available with CPM, CPC, and CPA</p>
-                    </div>
-                    <div class="popunder-links">
-                        <a href="#" class="signup-btn default-btn">LIVE DEMO
-                            <img src="images/live-demo.svg" alt="">
-                        </a>
-                        <div class="learn-more-btn socialbar-link">
-                            <a href="#">LEARN MORE
-                                <img src="images/white-arrow.svg" alt="">
+                    <div class="popunder-points">
+                        <div class="popunder-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Browser-friendly, non-intrusive ads with 9.9B monthly impressions.
+                            </p>
+                        </div>
+                        <div class="popunder-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Out-of-the-box template creatives with 30X higher CTRs compared to
+                                web push. </p>
+                        </div>
+                        <div class="popunder-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Available with CPM, CPC, and CPA</p>
+                        </div>
+                        <div class="popunder-links">
+                            <a href="#" class="signup-btn default-btn">LIVE DEMO
+                                <img src="images/live-demo.svg" alt="">
                             </a>
-
-
+                            <div class="learn-more-btn socialbar-link">
+                                <a href="#">LEARN MORE
+                                    <img src="images/white-arrow.svg" alt="">
+                                </a>
+    
+    
+                            </div>
                         </div>
                     </div>
+                    <div class="popunder-images">
+                        <img src="images/socialbar.png" alt="">
+                    </div>
+    
                 </div>
-                <div class="popunder-images">
-                    <img src="images/socialbar.png" alt="">
-                </div>
-
             </div>
         </div>
+    
+        <div class="page-push-section popunder-description-section">
+            <div class="container">
+                <div class="popunder-parent">
+                    <div class="popunder-description">
+                        <h1 class="common-heading">In-Page Push</h1>
+                        <p class="common-paragraph">Users receive notifications right in their <br> desktop or mobile
+                            browsers </p>
+                    </div>
+                    <div class="popunder-points">
+                        <div class="popunder-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">The most advanced replacement to classic push traffic.
+                            </p>
+                        </div>
+                        <div class="popunder-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">In-Page Push ads don't require opt-ins, running on all OS and in all
+                                browsers.</p>
+    
+                        </div>
+                        <div class="popunder-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">You can buy CPM, CPC, and CPA in-page traffic.</p>
+                        </div>
+                        <div class="popunder-links">
+                            <a href="#" class="signup-btn default-btn">LIVE DEMO
+                                <img src="images/live-demo.svg" alt="">
+                            </a>
+                            <div class="learn-more-btn">
+                                <a href="#">LEARN MORE
+                                    <img src="images/white-arrow.svg" alt="">
+                                </a>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popunder-images">
+                        <img src="images/pagepush.png" alt="">
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="Interstitials-section" style="margin-bottom: 100px;">
+            <div class="container">
+                <div class="popunder-parent">
+                    <div class="popunder-description">
+                        <h1 class="common-heading">Interstitials</h1>
+                        <p class="common-paragraph">Full-screen ads appear on top of the <br> website content </p>
+                    </div>
+                    <div class="popunder-points">
+                        <div class="popunder-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Striking ads with maximum visual impact and CTR capacity
+                            </p>
+                        </div>
+                        <div class="popunder-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Effective templates fine-tuned to fit your vertical and offer</p>
+                        </div>
+                        <div class="popunder-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Interstitial traffic is available with CPM and CPA pricing</p>
+                        </div>
+                        <div class="popunder-links">
+                            <a href="#" class="signup-btn default-btn">LIVE DEMO
+                                <img src="images/live-demo.svg" alt="">
+                            </a>
+                            <div class="learn-more-btn socialbar-link">
+                                <a href="#">LEARN MORE
+                                    <img src="images/white-arrow.svg" alt="">
+                                </a>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popunder-images">
+                        <img src="images/interstitials.png" alt="">
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
     </section>
 
+    <section class="display-none" id="publisher-points-list">
 
-    <section class="page-push-section popunder-description-section">
-        <div class="container">
-            <div class="popunder-parent">
-                <div class="popunder-description">
-                    <h1 class="common-heading">In-Page Push</h1>
-                    <p class="common-paragraph">Users receive notifications right in their <br> desktop or mobile
-                        browsers </p>
-                </div>
-                <div class="popunder-points">
-                    <div class="popunder-mid-points">
-                        <img src="images/popunder-points.svg" alt="">
-                        <p class="common-paragraph">The most advanced replacement to classic push traffic.
+        <div class="popunder-description-section">
+            <div class="container">
+                <div class="popunder-parent">
+                    <div class="popunder-description">
+                        <h1 class="common-heading">Popunder</h1>
+                        <p class="common-paragraph">Non-intrusive formats with great <br> viewability, Popunders remain among the <br> highest-paying ads.
                         </p>
                     </div>
-                    <div class="popunder-mid-points">
-                        <img src="images/popunder-points.svg" alt="">
-                        <p class="common-paragraph">In-Page Push ads don't require opt-ins, running on all OS and in all
-                            browsers.</p>
-
-                    </div>
-                    <div class="popunder-mid-points">
-                        <img src="images/popunder-points.svg" alt="">
-                        <p class="common-paragraph">You can buy CPM, CPC, and CPA in-page traffic.</p>
-                    </div>
-                    <div class="popunder-links">
-                        <a href="#" class="signup-btn default-btn">LIVE DEMO
-                            <img src="images/live-demo.svg" alt="">
-                        </a>
-                        <div class="learn-more-btn">
-                            <a href="#">LEARN MORE
-                                <img src="images/white-arrow.svg" alt="">
+                    <div class="popunder-points">
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">A full-page ad that appears in a new browser tab or window.</p>
+                        </div>
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Pop ads don’t require any space on a website and can be combined <br> with any other ad unit</p>
+                        </div>
+                        <div class="popunder-links">
+                            <a href="#" class="signup-btn default-btn">LIVE DEMO
+                                <img src="images/live-demo.svg" alt="">
                             </a>
-
-
+                            <div class="learn-more-btn">
+                                <a href="#">LEARN MORE
+                                    <img src="images/white-arrow.svg" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
+                    <div class="popunder-images">
+                        <img src="images/popunder.png" alt="">
+                    </div>
+    
                 </div>
-                <div class="popunder-images">
-                    <img src="images/pagepush.png" alt="">
-                </div>
-
             </div>
         </div>
-    </section>
-    <section class="Interstitials-section">
-        <div class="container">
-            <div class="popunder-parent">
-                <div class="popunder-description">
-                    <h1 class="common-heading">Interstitials</h1>
-                    <p class="common-paragraph">Full-screen ads appear on top of the <br> website content </p>
-                </div>
-                <div class="popunder-points">
-                    <div class="popunder-mid-points">
-                        <img src="images/popunder-points.svg" alt="">
-                        <p class="common-paragraph">Striking ads with maximum visual impact and CTR capacity
+    
+        <div class="social-bar-section">
+            <div class="container">
+                <div class="popunder-parent">
+                    <div class="popunder-description">
+                        <h1 class="common-heading">Social Bar</h1>
+                        <p class="common-paragraph">A must-have ad code for extra <br> monetization that delivers great UX <br> and competitive CPMs.
                         </p>
                     </div>
-                    <div class="popunder-mid-points">
-                        <img src="images/popunder-points.svg" alt="">
-                        <p class="common-paragraph">Effective templates fine-tuned to fit your vertical and offer</p>
-                    </div>
-                    <div class="popunder-mid-points">
-                        <img src="images/popunder-points.svg" alt="">
-                        <p class="common-paragraph">Interstitial traffic is available with CPM and CPA pricing</p>
-                    </div>
-                    <div class="popunder-links">
-                        <a href="#" class="signup-btn default-btn">LIVE DEMO
-                            <img src="images/live-demo.svg" alt="">
-                        </a>
-                        <div class="learn-more-btn socialbar-link">
-                            <a href="#">LEARN MORE
-                                <img src="images/white-arrow.svg" alt="">
+                    <div class="popunder-points">
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Browser-friendly, non-intrusive ads with 9.9B monthly impressions.
+                            </p>
+                        </div>
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Out-of-the-box template creatives with 30X higher CTRs compared to
+                                web push. </p>
+                        </div>
+                        <div class="popunder-links">
+                            <a href="#" class="signup-btn default-btn">LIVE DEMO
+                                <img src="images/live-demo.svg" alt="">
                             </a>
-
-
+                            <div class="learn-more-btn socialbar-link">
+                                <a href="#">LEARN MORE
+                                    <img src="images/white-arrow.svg" alt="">
+                                </a>
+    
+    
+                            </div>
                         </div>
                     </div>
+                    <div class="popunder-images">
+                        <img src="images/socialbar.png" alt="">
+                    </div>
+    
                 </div>
-                <div class="popunder-images">
-                    <img src="images/interstitials.png" alt="">
-                </div>
-
             </div>
         </div>
+    
+        <div class="page-push-section popunder-description-section">
+            <div class="container">
+                <div class="popunder-parent">
+                    <div class="popunder-description">
+                        <h1 class="common-heading">Direct Link</h1>
+                        <p class="common-paragraph">The Link can be used on HTML sites, <br> WordPress and Blogger blogs. It is also <br> possible to use it in APK files.</p>
+                    </div>
+                    <div class="popunder-points">
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Direct Link is the easiest way to profit from website traffic.
+                            </p>
+                        </div>
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Publishers can add it to texts, buttons, or pictures as a simple link. <br> Also, it's the best option to earn from social traffic.</p>
+    
+                        </div>
+                        <div class="popunder-links">
+                            <a href="#" class="signup-btn default-btn">LIVE DEMO
+                                <img src="images/live-demo.svg" alt="">
+                            </a>
+                            <div class="learn-more-btn">
+                                <a href="#">LEARN MORE
+                                    <img src="images/white-arrow.svg" alt="">
+                                </a>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popunder-images">
+                        <img src="images/directlink.7498306.png" alt="">
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="Interstitials-section">
+            <div class="container">
+                <div class="popunder-parent">
+                    <div class="popunder-description">
+                        <h1 class="common-heading">Native Banners</h1>
+                        <p class="common-paragraph">Native Banners don’t annoy users and <br> spark higher interest. They fit all <br> interfaces and platforms. </p>
+                    </div>
+                    <div class="popunder-points">
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Simple but extra-effective ads that are consumed like editorial content.
+                            </p>
+                        </div>
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">
+                                Publishers decide on the size of ad blocks, pick colors and font sizes <br> to match the website content perfectly.</p>
+                        </div>
+                        <div class="popunder-links">
+                            <a href="#" class="signup-btn default-btn">LIVE DEMO
+                                <img src="images/live-demo.svg" alt="">
+                            </a>
+                            <div class="learn-more-btn socialbar-link">
+                                <a href="#">LEARN MORE
+                                    <img src="images/white-arrow.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popunder-images">
+                        <img src="images/nativebanners.39d4c3e.png" alt="">
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <div class="banner-section">
+            <div class="container">
+                <div class="popunder-parent">
+                    <div class="popunder-description">
+                        <h1 class="common-heading">Banners</h1>
+                        <p class="common-paragraph">Banners come in several sizes: 160x300, <br> 160x600, 300x250, 320x50, 468x60, <br> 728x90 </p>
+                    </div>
+                    <div class="popunder-points">
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Static ad formats run on desktop and mobile websites, sending stable <br> profits to publishers and bloggers.
+                            </p>
+                        </div>
+                        <div class="popunder-mid-points publisher-mid-points">
+                            <img src="images/popunder-points.svg" alt="">
+                            <p class="common-paragraph">Banners can complement any inventory, from blogs to e-shops.</p>
+                        </div>
+                        <div class="popunder-links">
+                            <a href="#" class="signup-btn default-btn">LIVE DEMO
+                                <img src="images/live-demo.svg" alt="">
+                            </a>
+                            <div class="learn-more-btn socialbar-link">
+                                <a href="#">LEARN MORE
+                                    <img src="images/white-arrow.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popunder-images">
+                        <img src="images/banners.png" alt="">
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
     </section>
+
+
     <section class="online-ad-network-section">
         <div class="container">
             <div class="online-ad-heading">
@@ -716,12 +916,13 @@
                     <h3 class="benefits-heading faq-heading">What traffic does your ad network provide?</h3>
                     <p>Adsterra provides genuine traffic coming from direct publishers of 248 geos. Adsterra is a
                         reliable <a href="#">DSP and SSP platform,</a>
-                    </p>
-                    <p>as well. We can accept premium traffic from supply-side platforms and sell ad impressions via
+                        <br>as well. We can accept premium traffic from supply-side platforms and sell ad impressions via
                         <a href="#"> RTB.</a>
                     </p>
+                    
+                    
                 </div>
-                <a href="#" class="scrole-bar"><img src="images/faq-image.svg" alt=""></a>
+                <span class="faq-item-toggle-btn" onclick="toggleHide(event)"><img src="images/faq-image.svg" alt=""></span>
             </div>
             <div class="faq-parent">
                 <div class="faq-description">
@@ -738,7 +939,7 @@
                     </p>
 
                 </div>
-                <a href="#" class="scrole-bar"><img src="images/faq-image.svg" alt=""></a>
+                <span onclick="toggleHide(event)" class="faq-item-toggle-btn"><img src="images/faq-image.svg" alt=""></span>
             </div>
             <div class="faq-parent">
                 <div class="faq-description">
@@ -751,7 +952,7 @@
                     </p>
 
                 </div>
-                <a href="#" class="scrole-bar"><img src="images/faq-image.svg" alt=""></a>
+                <span class="faq-item-toggle-btn" onclick="toggleHide(event)"><img src="images/faq-image.svg" alt=""></span>
             </div>
             <div class="faq-parent">
                 <div class="faq-description">
@@ -762,7 +963,7 @@
                         revenues if the traffic performance is great.
                     </p>
                 </div>
-                <a href="#" class="scrole-bar"><img src="images/faq-image.svg" alt=""></a>
+                <span onclick="toggleHide(event)" class="faq-item-toggle-btn"><img src="images/faq-image.svg" alt=""></span>
             </div>
             <div class="faq-parent">
                 <div class="faq-description">
@@ -774,7 +975,7 @@
                         our publishers' income growth.
                     </p>
                 </div>
-                <a href="#" class="scrole-bar"><img src="images/faq-image.svg" alt=""></a>
+                <span class="faq-item-toggle-btn" onclick="toggleHide(event)"><img src="images/faq-image.svg" alt=""></span>
             </div>
         </div>
     </section>
