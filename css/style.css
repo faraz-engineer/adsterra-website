@@ -618,7 +618,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    overflow-x: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
     gap: 45px;
     padding-bottom: 3rem;
     padding-top: 50px;
